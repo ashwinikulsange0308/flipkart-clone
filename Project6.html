@@ -1,0 +1,136 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+ <style>
+  body{
+    background-color: black;
+  }
+   .container{
+    height: 750px;
+    width: 800px;
+    position: absolute;
+    border: 1px;
+    margin-top: 50px;
+    margin-left: 400px;
+    display: flex;
+    
+    
+  }
+  #box1{
+    height: 650px;
+    width: 350px;
+    background-color: #2874f0;
+  }
+  #box2{
+    height: 650px;
+    width: 450px;
+    border: none;
+    background-color: white;
+   
+  }
+  img{
+   margin-top: 250px;
+   margin-left: 60px;
+  }
+  h1{
+    color: white;
+    margin-left: 20px;
+    
+  }
+  p{
+    color:rgb(228, 228, 228);
+    opacity:0.9;
+    font-size:20px;
+    letter-spacing: 1px;
+    margin-left: 20px;
+    padding: 1px;
+    font-family: Roboto,Arial,sans-serif;
+    line-height: 150%;
+  }
+  #box2 p{
+    color: black;
+    margin-left: 30px;
+    font-size: small;
+  }
+  input{
+    margin-top: 50px;
+    margin-left: 30px;
+    width: 70%;
+    height: 5%;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid;
+    font-family: Roboto,Arial,sans-serif;
+
+  }
+  #sub{
+    background-color: orangered;
+    border: none;
+    width: 80%;
+    height: 7%;
+    color: white;
+    font-size: medium;
+  }
+  #p3{
+    text-align: center;
+    margin-right: 50px;
+    
+
+  }
+  #in4{
+    color: #2874f0;
+    width: 80%;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid grey;
+    background: none;
+    font-size: medium ;
+    font-weight: normal;
+  }
+  .footer a{
+    color: #2874f0;
+    margin-left: 50px;
+    font-size: medium;
+    
+  }
+  .footer{
+    margin-top: 80px;
+  }
+  #p1 a{
+    color:#2874f0
+  }
+  #in2 {
+    color: #2874f0;
+  }
+ 
+ </style>
+</head>
+<body>
+  <form action="">
+    <div class="container">
+      <div id="box1"><br>
+        <h1>Login</h1>
+        
+        <p>Get access to your <br>
+         Orders, Wishlist and <br>
+         Recomadations</p>
+        <img src="./login_img_c4a81e.png" alt="">
+      </div>
+      <div id="box2">
+        <input type="email" placeholder="Enter Email/Mobile number" required><br>
+        <input type="password"  placeholder="Enter Password" required><a href="#" id="in2">Forgot?</a><br><br>
+        <p id="p1">By continuing,you agree to Flipkarts <a href="#">Terms of Use</a> and <a href="#">Privacy Policy</a></p><br>
+        <input type="submit" id="sub" value="Login" required><br>
+        <p id="p3">OR</p> <br>
+        <input type="reset"  id="in4" value="Request OTP"><br>
+        <p class="footer"><a href="#" >New to Flipkart? Create an account</a></p>
+      </div>
+    </div>
+  </form>
+</body>
+</html>
